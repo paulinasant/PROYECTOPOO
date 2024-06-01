@@ -2,7 +2,7 @@ import java.util.*;
 
 class Veterinario extends Persona {
     private int numeroCedula;
-     
+    
         public Veterinario(String nombre, String paterno, String materno, Date fechaNacimiento, String curp, int numeroCedula) {
         super(nombre, paterno, materno, fechaNacimiento, curp);
         this.numeroCedula = numeroCedula;
@@ -20,8 +20,8 @@ class Veterinario extends Persona {
     public String toString() {
         return "Veterinario" +
                 "nombre='" + getNombre() + '\'' +
-                ", paterno='" + getPaterno() + '\'' +
-                ", materno='" + getMaterno() + '\'' +
+                ",Apellido paterno='" + getPaterno() + '\'' +
+                ",Apellido materno='" + getMaterno() + '\'' +
                 ", fechaNacimiento=" + getFechaNacimiento() +
                 ", curp='" + getCurp() + '\'' +
                 ", numeroCedula=" + numeroCedula ;
